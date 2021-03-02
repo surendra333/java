@@ -6,7 +6,7 @@ import java.util.Scanner;
 
 public class Booking {
 	void pay() {
-		menu1 m = new menu1();
+		Menu m = new Menu();
 		Scanner sc = new Scanner(System.in);
 		System.out.println("1)cash" + "\n" + "2)paytm" + "\n");
 		try {

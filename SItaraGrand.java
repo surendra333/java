@@ -113,6 +113,7 @@ class SitaraGrand {
 			int option = sc.nextInt();
 			System.out.println("No.of Days");
 			int i = sc.nextInt();
+			if (i > 0 && i <= 5) {
 			if (option > 0 && option <= 5) {
 				switch (option) {
 				case 1:
@@ -148,6 +149,7 @@ class SitaraGrand {
 				System.out.println("Enter Correct Value");
 				bill();
 			}
+			}
 		} catch (Exception e) {
 			System.out.println("Enter Correct Value");
 			bill();
@@ -165,6 +167,7 @@ class SitaraGrand {
 			int option = sc.nextInt();
 			System.out.println("No.of Days");
 			int i = sc.nextInt();
+			if (i > 0 && i <= 5) {
 			if (option > 0 && option <= 5) {
 				switch (option) {
 				case 1:
@@ -200,6 +203,7 @@ class SitaraGrand {
 				System.out.println("Enter Correct Value");
 				bill2();
 			}
+			}
 		} catch (Exception e) {
 			System.out.println("Enter Correct Value");
 			bill2();
@@ -218,6 +222,7 @@ class SitaraGrand {
 			int option = sc.nextInt();
 			System.out.println("No.of Days");
 			int i = sc.nextInt();
+			if (i > 0 && i <= 5) {
 			if (option > 0 && option <= 5) {
 				switch (option) {
 				case 1:
@@ -249,6 +254,7 @@ class SitaraGrand {
 					System.out.println("Limit Exceed");
 					bill3();
 				}
+			}
 			} else {
 				System.out.println("Enter Correct Value");
 				bill3();
@@ -271,6 +277,7 @@ class SitaraGrand {
 			int option = sc.nextInt();
 			System.out.println("No.of Days");
 			int i = sc.nextInt();
+			if (i > 0 && i <= 5) {
 			if (option > 0 && option <= 5) {
 				switch (option) {
 				case 1:
@@ -305,6 +312,7 @@ class SitaraGrand {
 			} else {
 				System.out.println("Enter Correct Value");
 				bill4();
+			}
 			}
 		} catch (Exception e) {
 			System.out.println("Enter Correct Value");

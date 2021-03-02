@@ -113,6 +113,7 @@ class TajHotel {
 			int option = sc.nextInt();
 			System.out.println("No.of Days");
 			int i = sc.nextInt();
+			if (i > 0 && i <= 5) {
 			if (option > 0 && option <= 5) {
 				switch (option) {
 				case 1:
@@ -144,6 +145,7 @@ class TajHotel {
 					System.out.println("Limit Exceed");
 					bill();
 				}
+			}
 			} else {
 				System.out.println("Enter Correct Value");
 				bill();
@@ -165,6 +167,7 @@ class TajHotel {
 			int option = sc.nextInt();
 			System.out.println("No.of Days");
 			int i = sc.nextInt();
+			if (i > 0 && i <= 5) {
 			if (option > 0 && option <= 5) {
 				switch (option) {
 				case 1:
@@ -196,9 +199,11 @@ class TajHotel {
 					System.out.println("Limit Exceed");
 					bill2();
 				}
+			
 			} else {
 				System.out.println("Enter Correct Value");
 				bill2();
+			}
 			}
 		} catch (Exception e) {
 			System.out.println("Enter Correct Value");
@@ -217,6 +222,7 @@ class TajHotel {
 			int option = sc.nextInt();
 			System.out.println("No.of Days");
 			int i = sc.nextInt();
+			if (i > 0 && i <= 5) {
 			if (option > 0 && option <= 5) {
 				switch (option) {
 				case 1:
@@ -252,6 +258,7 @@ class TajHotel {
 				System.out.println("Enter Correct Value");
 				bill3();
 			}
+			}
 		} catch (Exception e) {
 			System.out.println("Enter Correct Value");
 			bill3();
@@ -270,6 +277,7 @@ class TajHotel {
 			int option = sc.nextInt();
 			System.out.println("No.of Days");
 			int i = sc.nextInt();
+			if (i > 0 && i <= 5) {
 			if (option > 0 && option <= 5) {
 				switch (option) {
 				case 1:
@@ -304,6 +312,7 @@ class TajHotel {
 			} else {
 				System.out.println("Enter Correct Value");
 				bill4();
+			}
 			}
 		} catch (Exception e) {
 			System.out.println("Enter Correct Value");

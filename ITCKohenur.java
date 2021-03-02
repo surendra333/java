@@ -115,6 +115,7 @@ class ITCKohenur {
 			int option = sc.nextInt();
 			System.out.println("No.of Days");
 			int i = sc.nextInt();
+			if(i>0 && i<=5) { 
 			if (option > 0 && option <= 5) {
 				switch (option) {
 				case 1:
@@ -146,10 +147,14 @@ class ITCKohenur {
 					System.out.println("Limit Exceed");
 					bill();
 				}
+		
+		
 			} else {
 				System.out.println("Enter Correct Value");
 				bill();
 			}
+			}
+			
 		} catch (Exception e) {
 			System.out.println("Enter Correct Value");
 			bill();
@@ -167,6 +172,7 @@ class ITCKohenur {
 			int option = sc.nextInt();
 			System.out.println("No.of Days");
 			int i = sc.nextInt();
+			if (i > 0 && i <= 5) {
 			if (option > 0 && option <= 5) {
 				switch (option) {
 				case 1:
@@ -197,10 +203,12 @@ class ITCKohenur {
 				default:
 					System.out.println("Limit Exceed");
 					bill2();
-				}
+				
+			}
 			} else {
 				System.out.println("Enter Correct Value");
 				bill2();
+			}
 			}
 		} catch (Exception e) {
 			System.out.println("Enter Correct Value");
@@ -220,6 +228,7 @@ class ITCKohenur {
 			int option = sc.nextInt();
 			System.out.println("No.of Days");
 			int i = sc.nextInt();
+			if (i > 0 && i <= 5) {
 			if (option > 0 && option <= 5) {
 				switch (option) {
 				case 1:
@@ -255,6 +264,7 @@ class ITCKohenur {
 				System.out.println("Enter Correct Value");
 				bill3();
 			}
+			}
 		} catch (Exception e) {
 			System.out.println("Enter Correct Value");
 			bill3();
@@ -273,6 +283,7 @@ class ITCKohenur {
 			int option = sc.nextInt();
 			System.out.println("No.of Days");
 			int i = sc.nextInt();
+			if (i > 0 && i <= 5) {
 			if (option > 0 && option <= 5) {
 				switch (option) {
 				case 1:
@@ -305,8 +316,10 @@ class ITCKohenur {
 					bill4();
 				}
 			} else {
+				System.out.println("Limit Exceed");
 				System.out.println("Enter Correct Value");
 				bill4();
+			}
 			}
 		} catch (Exception e) {
 			System.out.println("Enter Correct Value");

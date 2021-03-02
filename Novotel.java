@@ -111,6 +111,7 @@ class Novotel {
 			int option = sc.nextInt();
 			System.out.println("No.of Days");
 			int i = sc.nextInt();
+			if (i > 0 && i <= 5) {
 			if (option > 0 && option <= 5) {
 				switch (option) {
 				case 1:
@@ -146,6 +147,7 @@ class Novotel {
 				System.out.println("Enter Correct Value");
 				bill();
 			}
+			}
 		} catch (Exception e) {
 			System.out.println("Enter Correct Value");
 			bill();
@@ -164,6 +166,7 @@ class Novotel {
 			int option = sc.nextInt();
 			System.out.println("No.of Days");
 			int i = sc.nextInt();
+			if (i > 0 && i <= 5) {
 			if (option > 0 && option <= 5) {
 				switch (option) {
 				case 1:
@@ -199,6 +202,7 @@ class Novotel {
 				System.out.println("Enter Correct Value");
 				bill2();
 			}
+			}
 		} catch (Exception e) {
 			System.out.println("Enter Correct Value");
 			bill2();
@@ -217,6 +221,7 @@ class Novotel {
 			int option = sc.nextInt();
 			System.out.println("No.of Days");
 			int i = sc.nextInt();
+			if (i > 0 && i <= 5) {
 			if (option > 0 && option <= 5) {
 				switch (option) {
 				case 1:
@@ -252,6 +257,7 @@ class Novotel {
 				System.out.println("Enter Correct Value");
 				bill3();
 			}
+			}
 		} catch (Exception e) {
 			System.out.println("Enter Correct Value");
 			bill3();
@@ -271,6 +277,7 @@ class Novotel {
 			int option = sc.nextInt();
 			System.out.println("No.of Days");
 			int i = sc.nextInt();
+			if (i > 0 && i <= 5) {
 			if (option > 0 && option <= 5) {
 				switch (option) {
 				case 1:
@@ -305,6 +312,7 @@ class Novotel {
 			} else {
 				System.out.println("Enter Correct Value");
 				bill4();
+			}
 			}
 		} catch (Exception e) {
 			System.out.println("Enter Correct Value");
